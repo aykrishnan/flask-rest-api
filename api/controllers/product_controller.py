@@ -46,4 +46,3 @@ def update_product_by_id(id):
 def remove_product_by_id(id):
     ProductRepository.remove_product_by_id(id)
     return Response(None, 204, content_type=CONTENT_TYPE_APPLICATION_JSON)
-
